@@ -1,0 +1,54 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    background-color: rgb(228, 226, 225);
+}
+h2{
+    color: rgb(97, 92, 228);
+}
+
+.form{
+    border: solid rgb(97, 92, 228) 2px;
+    border-radius: 50px;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgb(141, 253, 234);
+}
+
+.label{
+    margin-left: 130px;
+    
+}
+
+#name ,#Email ,#password{
+    margin-left: 130px;
+    padding-left:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+button{
+    margin-left: 210px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(97, 92, 228);
+    cursor: pointer;
+    color: wheat;
+}
+button:active{
+    background-color: blue;
+}
